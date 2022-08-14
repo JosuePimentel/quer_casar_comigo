@@ -72,6 +72,7 @@ section {
     border-radius: 20px;
     background-color: red;
     padding: 20px;
+    margin: 0 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -100,16 +101,17 @@ section > div > span {
     border-radius: 10px;
     cursor: pointer;
     position: absolute;
+    box-shadow: 0 0 5px #000;
 }
 
 section > div > span.sim {
-    left: 100px;
+    left: 20%;
 }
 
 div.window.active + section > div > span.sim {
-    box-shadow: 0 0 10px inset #000;
+    box-shadow: 0 0 5px inset #000;
 }
 
 section > div > span.nao {
-    right: 100px;
+    right: 20%;
 }

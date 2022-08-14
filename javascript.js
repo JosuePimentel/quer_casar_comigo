@@ -10,7 +10,7 @@ function prank(resp, ele) {
         ele.style.top = `${Ran_Position_Y}px`
     }else {
         janela.classList.toggle('active')
-        ele.style.left = '250px'
+        ele.style.left = 'calc(50% - 50px)'
         ele.nextElementSibling.style.display = 'none'
         title.innerHTML = "Me da o cu?🥺 :P"
     }

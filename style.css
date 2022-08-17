@@ -120,12 +120,11 @@ section > div > span.nao {
 
 @media screen and (max-width:470px) {
     section > div > span.sim {
-        left: calc(50% - 50px);
+        right: calc(50% - 50px);
     }
 
     section > div > span.nao {
-        bottom: 20%;
-        left: calc(50% - 50px);
-        right: inherit;
+        top: 70%;
+        right: calc(50% - 50px);
     }
 }
